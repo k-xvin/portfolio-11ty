@@ -5,13 +5,12 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>{{ title }}</title>
 	<link rel="stylesheet" href="{{ '/css/style.css' | url }}" />
+	<link rel="stylesheet" href="{{ '/css/error.css' | url }}" />
 </head>
 <body>
-	{# <header>
-		<h1>{{ title }}</h1>
-	</header> #}
 	<main class="main">	
         {{ content | safe }}
 	</main>
 </body>
 </html>
+{# TODO: make this a template that just adds an extra stylesheet #}

@@ -1,4 +1,23 @@
 body {
-  font-family: sans-serif;
-  background-color: #f9f9f9;
+    font-family: "Consolas", Courier, monospace;
+    color: white;
+    background-color: black;
+    margin: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    transition: color 0.5s ease;
+}
+
+a:hover {
+    color: rgba(255, 255, 255, 0.65);
+}
+
+.main {
+    display: grid;
+    place-content: center;
+    text-align: center;
 }
