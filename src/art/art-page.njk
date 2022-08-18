@@ -1,0 +1,20 @@
+---
+layout: base.njk
+pagination:
+    data: possums
+    size: 1
+    alias: possum
+permalink: "art/{{ possum.name | slug }}/"
+eleventyComputed:
+    title: "{{ possum.name }}"
+---
+{% if pagination.href.next %}
+<a href={{pagination.href.next}}> next </a>
+{% endif %}
+
+<div>
+    {{ possum.name }} is {{ possum.age }} years old
+</div>
+{% if pagination.href.previous %}
+<a href={{pagination.href.previous}}> prev </a>
+{% endif %}

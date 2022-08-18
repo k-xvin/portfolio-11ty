@@ -1,0 +1,16 @@
+---
+layout: base.njk
+title: Art
+
+pagination:
+    data: possums
+    size: 1
+---
+
+<ol>
+    {%- for pageEntry in pagination.pages %}
+        <li>
+            <a href={{ pageEntry.name | slug }}>{{pageEntry.name}}</a>
+        </li>
+    {%- endfor %}
+</ol>
