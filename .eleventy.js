@@ -7,8 +7,6 @@ module.exports = function (eleventyConfig) {
 
     eleventyConfig.addPassthroughCopy("./src/img");
 
-    eleventyConfig.addDataExtension("json5", contents => json5.parse(contents));
-
     eleventyConfig.setBrowserSyncConfig({
         callbacks: {
             ready: function (err, bs) {

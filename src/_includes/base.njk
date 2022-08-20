@@ -8,6 +8,9 @@
         <link rel="stylesheet" href="{{ '/css/main.css' | url }}"/>
     </head>
     <div class="background"/></div>
+    {% if page.url != "/"  %}
+        {% include "_nav.njk" %}
+    {% endif %}
     <body>
         <main class="main">
             {{ content | safe }}

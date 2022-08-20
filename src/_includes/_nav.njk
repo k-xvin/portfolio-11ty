@@ -1,0 +1,35 @@
+<header class="header"> 
+    <nav class="nav">
+        <a href="/">
+            [HOME]
+        </a>
+        <a href="/art">
+        {% if "/art" in page.url  %}
+            <span class="active">[ART]</span>
+        {% else %}
+            <span>[ART]</span>
+        {% endif %}
+        </a>
+        <a href="/music">
+        {% if "/music" in page.url  %}
+            <span class="active">[MUSIC]</span>
+        {% else %}
+            <span>[MUSIC]</span>
+        {% endif %}
+        </a>
+        <a href="/tech">
+        {% if "/tech" in page.url  %}
+            <span class="active">[TECH]</span>
+        {% else %}
+            <span>[TECH]</span>
+        {% endif %}
+        </a>
+        <a href="/now">
+        {% if "/now" in page.url  %}
+            <span class="active">[NOW]</span>
+        {% else %}
+            <span>[NOW]</span>
+        {% endif %}
+        </a>
+    </nav>
+</header>
