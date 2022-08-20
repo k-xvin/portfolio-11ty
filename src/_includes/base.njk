@@ -1,17 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>{{ title }}</title>
-	<link rel="stylesheet" href="{{ '/css/style.css' | url }}" />
-</head>
-<body>
-	{# <header>
-		<h1>{{ title }}</h1>
-	</header> #}
-	<main class="main">	
-        {{ content | safe }}
-	</main>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>{{ title }}</title>
+        <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
+        <link rel="stylesheet" href="{{ '/css/main.css' | url }}"/>
+    </head>
+    <div class="background"/></div>
+    <body>
+        <main class="main">
+            {{ content | safe }}
+        </main>
+    </body>
 </html>

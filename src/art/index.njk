@@ -1,16 +1,10 @@
 ---
 layout: base.njk
-title: Art
+title: art
 
-pagination:
-    data: possums
-    size: 1
 ---
 
-<ol>
-    {%- for pageEntry in pagination.pages %}
-        <li>
-            <a href={{ pageEntry.name | slug }}>{{pageEntry.name}}</a>
-        </li>
-    {%- endfor %}
-</ol>
+<h1> p5js </h1>
+{% for piece in collections.p5 %}
+<a href="{{piece.url}}"> {{ piece.data.title }} </a>
+{% endfor %}

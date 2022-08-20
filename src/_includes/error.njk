@@ -4,11 +4,12 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>{{ title }}</title>
-	<link rel="stylesheet" href="{{ '/css/style.css' | url }}" />
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+	<link rel="stylesheet" href="{{ '/css/main.css' | url }}" />
 	<link rel="stylesheet" href="{{ '/css/error.css' | url }}" />
 </head>
 <body>
-	<main class="main">	
+	<main class="main error-page scanlines">	
         {{ content | safe }}
 	</main>
 </body>
