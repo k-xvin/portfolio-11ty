@@ -1,9 +1,15 @@
 ---
-layout: base.njk
+layout: art.njk
 title: art
 ---
 
 <h1> p5js </h1>
+<div class="grid">
 {% for piece in collections.p5 %}
-<a href="{{piece.url}}"> {{ piece.data.title }} </a>
+<div class="preview">
+    <a href="{{piece.url}}"> 
+        <img src="{{piece.data.preview}}" alt="{{piece.data.title}}" width="200" height="200"/>
+    </a>
+</div>
 {% endfor %}
+</div>

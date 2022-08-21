@@ -5,6 +5,16 @@ body {
     margin: 0px;
 }
 
+.main {
+    padding: 0 10% 0 10%;
+    min-height: 100vh;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 a {
     text-decoration: none;
     color: white;
@@ -16,22 +26,9 @@ a:hover {
     color: rgba(255, 255, 255, 0.5);
 }
 
-.main {
-    display: grid;
-    place-content: center;
-    text-align: center;
-    height: 100vh;
-}
-
-.mix {
-    mix-blend-mode: exclusion;
-    padding: 1rem;
-}
-
 .header {
-    position: absolute;
+    position: sticky;
     top: 0;
-    width: 100vw;
     display: grid;
     place-content: center;
 }
@@ -39,11 +36,15 @@ a:hover {
 .nav {
     display: flex;
     flex-direction: row;
+    flex-wrap:  wrap;
+
+    justify-content: center;
+
     gap: 0.5rem;
     padding: 1rem;
-    margin-top: 1rem;
-    background-color: rgba(0, 0, 0, 0.5);
-    border-radius: 5px;
+    margin: 1rem;
+    background-color: rgba(59, 59, 59, 0.75);
+    border-radius: 10px;
 }
 
 .active {
@@ -66,11 +67,5 @@ a:hover {
     width: 100%;
 }
 
-.social-icons {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 1rem;
-    height: 2rem;
-    margin: 1.5rem 0 1.5rem 0;
-}
+
+

@@ -6,9 +6,10 @@ pagination:
     addAllPagesToCollections: true
 layout: base.njk
 tags: p5
-permalink: "art/{{ piece.name | slug }}/"
+permalink: "art/{{ piece.title | slug }}/"
 eleventyComputed:
-    title: "{{ piece.name }}"
+    title: "{{ piece.title }}"
+    preview: "{{ piece.preview }}"
 ---
 {% if pagination.href.next %}
 <a href={{pagination.href.next}}> next </a>
