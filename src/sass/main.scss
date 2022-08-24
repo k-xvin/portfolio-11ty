@@ -1,15 +1,17 @@
+@import "header.scss";
+
 body {
     font-family: "Inconsolatas", "Consolas", monospace;
     color: white;
     background-color: black;
     margin: 0px;
+    margin: 0 10% 0 10%;
 }
 
 .main {
-    padding: 0 10% 0 10%;
+    padding: 0 5% 0 5%;
     min-height: 100vh;
     height: 100%;
-    margin: 0 auto 0 auto;
 
     display: flex;
     flex-direction: column;
@@ -27,33 +29,6 @@ a:hover {
     color: rgba(255, 255, 255, 0.5);
 }
 
-.header {
-    position: sticky;
-    top: 0;
-    display: grid;
-    place-content: center;
-    z-index: 1;
-    padding: 0 10% 0 10%;
-}
-
-.nav {
-    display: flex;
-    flex-direction: row;
-    flex-wrap:  wrap;
-
-    justify-content: center;
-
-    gap: 0.5rem;
-    padding: 1rem;
-    margin: 1rem 0 1rem 0;
-    background-color: rgba(59, 59, 59, 0.75);
-    border-radius: 10px;
-
-}
-
-.active {
-    color: rgba(255, 255, 255, 0.5);
-}
 
 .background {
     position: absolute;
@@ -71,5 +46,10 @@ a:hover {
     width: 100%;
 }
 
+.display {
+    height: 75vh;
+    width: 75vw;
+    object-fit: cover;
+}
 
 

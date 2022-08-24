@@ -3,16 +3,16 @@ layout: posts.njk
 title: art
 ---
 {% for post in collections.art %}
-    <div class="card">
+    {# <div class="card">
         <div class="card-img">
             <img src="{{post.data.image}}"/> 
         </div>
-        <div class="card-body">
-            <a class="card-title" href={{post.url}}> {{post.data.title}} </a>
-            <div class="card-date"> {{post.date | postDate}} </div> 
+        <div class="card-body"> #}
+            <h1><a class="card-title" href={{post.url}}> {{post.data.title}} </a></h1>
+            {# <div class="card-date"> {{post.date | postDate}} </div> 
             <div class="card-blurb"> 
                 {{post.data.blurb}}
             </div>
         </div>
-    </div>
+    </div> #}
 {% endfor %}
