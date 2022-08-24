@@ -1,0 +1,29 @@
+.card {
+    width: 100%;
+    min-height: 125px;
+    background-color: rgba(59, 59, 59, 0.75);
+
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+
+    overflow: hidden;
+
+       
+}
+
+.card-img {
+    min-height: 125px;
+    max-height: 150px;
+
+    img {
+        width: 100%;
+        aspect-ratio: 1 / 1;
+        object-fit: cover;
+        border-radius: 10px 0 0 10px;
+    } 
+}
+
+.card-body {
+    padding: 1rem;
+}

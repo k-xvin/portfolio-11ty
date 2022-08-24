@@ -1,6 +1,6 @@
 ---
 pagination:
-    data: p5
+    data: gen
     size: 1
     alias: piece
     addAllPagesToCollections: true
@@ -11,6 +11,7 @@ eleventyComputed:
     title: "{{ piece.title }}"
     preview: "{{ piece.preview }}"
 ---
+{# TODO #}
 {% if pagination.href.next %}
 <a href={{pagination.href.next}}> next </a>
 {% endif %}

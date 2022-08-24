@@ -1,5 +1,5 @@
 const fs = require("fs");
-const json5 = require("json5");
+const { DateTime } = require("luxon");
 const NOT_FOUND_PATH = "public/404.html";
 
 module.exports = function (eleventyConfig) {
@@ -7,6 +7,7 @@ module.exports = function (eleventyConfig) {
 
     eleventyConfig.addPassthroughCopy("./src/img");
 
+    // For error page while running browsersync
     eleventyConfig.setBrowserSyncConfig({
         callbacks: {
             ready: function (err, bs) {
@@ -25,6 +26,11 @@ module.exports = function (eleventyConfig) {
                 });
             }
         }
+    });
+
+    // date
+    eleventyConfig.addFilter("postDate", (dateObj) => {
+        return DateTime.fromJSDate(dateObj).toLocaleString(DateTime.DATE_MED);
     });
 
     return {

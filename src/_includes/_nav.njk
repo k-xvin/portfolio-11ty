@@ -1,7 +1,11 @@
 <header class="header"> 
     <nav class="nav">
         <a href="/">
-            [HOME]
+        {% if page.url == "/"  %}
+            <span class="active">[HOME]</span>
+        {% else %}
+            <span>[HOME]</span>
+        {% endif %}
         </a>
         <a href="/art">
         {% if "/art" in page.url  %}
