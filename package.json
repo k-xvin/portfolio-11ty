@@ -9,7 +9,7 @@
     "build:sass": "sass  --no-source-map src/sass:public/css",
     "build:eleventy": "eleventy",
     "postbuild_f": "postcss public/css/*.css -u autoprefixer cssnano -r --no-map",
-    "postbuild": "postcss ./public/css/*.css -u autoprefixer cssnano -r --no-map",
+    "postbuild": "postcss public/css/*.css -u autoprefixer cssnano -r --no-map",
     "start": "npm-run-all build:sass --parallel watch:*",
     "build": "npm-run-all build:sass build:eleventy"
   },
