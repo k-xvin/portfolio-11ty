@@ -10,7 +10,7 @@ body {
 
 .main {
     padding: 0 5% 0 5%;
-    min-height: 100vh;
+    min-height: 60vh;
     height: 100%;
 
     display: flex;
@@ -51,5 +51,20 @@ a:hover {
     width: 75vw;
     object-fit: cover;
 }
+
+.mix {
+    mix-blend-mode: difference;
+    // text-shadow: 
+    // 1px 1px red,
+    // 2px 2px red,
+    // 3px 3px red,
+    // 4px 4px red;
+
+    filter: 
+    drop-shadow(0.5px 1px red)
+    drop-shadow(1.5px 2px red)
+    drop-shadow(2.5px 3px red);
+}
+
 
 
