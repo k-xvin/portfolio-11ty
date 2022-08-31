@@ -1,0 +1,14 @@
+<a class="card" href={{post.url}}>
+    <div class="card-img">
+        <img src="{{post.data.image}}"/>
+    </div>
+    <div class="card-body">
+        <h2>
+            {{post.data.title}}
+        </h2>
+        <div class="card-date"> {{post.date | postDate}} </div> 
+        <div class="card-blurb">
+            {{post.data.blurb}}
+        </div>
+    </div>
+</a>

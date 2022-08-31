@@ -1,5 +1,5 @@
 {
-    "permalink": "art/{{ title | slug }}/",
+    "permalink": "art/{{ title | slugify }}/",
     "tags": [
         "art"
     ]

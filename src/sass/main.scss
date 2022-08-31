@@ -74,3 +74,15 @@ a:hover {
         filter: drop-shadow(1px 1px #f00) drop-shadow(2px 2px #f00) drop-shadow(3px 3px 1px #f00);
     }
 }
+
+::-webkit-scrollbar {
+    width: 8px;
+    height: 6px;
+}
+::-webkit-scrollbar-thumb {
+    background: rgba(145, 145, 145, 0.432);
+    border-radius: 5px;
+}
+::-webkit-scrollbar-track {
+    background: transparent;
+}

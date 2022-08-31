@@ -29,8 +29,9 @@ module.exports = function (eleventyConfig) {
     });
 
     // date
+    // https://www.bockensm.com/2021/03/13/javascript-dates-off-by-one/
     eleventyConfig.addFilter("postDate", (dateObj) => {
-        return DateTime.fromJSDate(dateObj).toLocaleString(DateTime.DATE_MED);
+        return dateObj.toLocaleDateString( "en-US", { timeZone: "UTC" } );
     });
 
     return {
