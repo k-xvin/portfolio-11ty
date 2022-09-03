@@ -1,7 +1,9 @@
 ---
-layout: base.njk
+layout: posts.njk
 title: music
 ---
-(posts coming soon)
-<a href="https://soundcloud.com/zarbobo" target="_blank">soundcloud</a>
-<a href="https://www.youtube.com/channel/UCIQCQvnR4iwj72MhhLw4fqg" target="_blank">youtube</a>
+{% for post in collections.music %}
+    {% include "_postcard.njk"%}
+{% endfor %}
+{# <a href="https://soundcloud.com/zarbobo" target="_blank">soundcloud</a>
+<a href="https://www.youtube.com/channel/UCIQCQvnR4iwj72MhhLw4fqg" target="_blank">youtube</a> #}
