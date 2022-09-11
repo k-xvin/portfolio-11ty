@@ -9,7 +9,7 @@ body {
 }
 
 .main {
-    padding: 0 5% 0 5%;
+    // padding: 0 5% 0 5%;
     min-height: 60vh;
     height: 100%;
 
@@ -75,14 +75,19 @@ a:hover {
     }
 }
 
-::-webkit-scrollbar {
-    width: 8px;
-    height: 6px;
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(145, 145, 145, 0.432) transparent;
 }
-::-webkit-scrollbar-thumb {
+
+*::-webkit-scrollbar {
+    width: 8px;
+    height: 100%;
+}
+*::-webkit-scrollbar-thumb {
     background: rgba(145, 145, 145, 0.432);
     border-radius: 5px;
 }
-::-webkit-scrollbar-track {
+*::-webkit-scrollbar-track {
     background: transparent;
 }
