@@ -12,6 +12,7 @@
     <body>
         <main class="main">
             <div class="post"> 
+                <div>{{ page.date | postDate}}</div>
                 {{ content | safe }}
             </div>
         </main>

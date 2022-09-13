@@ -3,10 +3,10 @@
         <img src="{{post.data.image}}"/>
     </div>
     <div class="card-body">
+        <div class="card-date"> {{post.date | postDate}} </div> 
         <div class="card-title">
             {{post.data.title}}
         </div>
-        {# <div class="card-date"> {{post.date | postDate}} </div>  #}
         <div class="card-blurb">
             {{post.data.blurb}}
         </div>

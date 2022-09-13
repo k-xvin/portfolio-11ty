@@ -8,6 +8,8 @@ date: 2021-03-01
 # Generative Art
 I've been making generative art for a while now. I've used p5js (javascript), Nannou (Rust), and OpenRNDR (Kotlin). Nannou is great for high-performance programs, but p5js will wins out on convenience. OpenRNDR has some nice recording features built in.
 
+The art below is updated with new art whenever I choose to make some more.
+
 <br/>
 
 {% include "_genart_grid.njk" %}
