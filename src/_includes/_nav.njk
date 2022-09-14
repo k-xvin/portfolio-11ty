@@ -19,16 +19,17 @@
             <a href="/music">[MUSIC]</a>
         {% endif %}
         
+        {% if "/tech" in page.url  %}
+            <a href="/tech" class="active">[TECH]</a>
+        {% else %}
+            <a href="/tech">[TECH]</a>
+        {% endif %}
+
         {% if "/now" in page.url  %}
             <a href="/now" class="active">[NOW]</a>
         {% else %}
             <a href="/now">[NOW]</a>
         {% endif %}
 
-        {% if "/tech" in page.url  %}
-            <a href="/tech" class="active">[TECH]</a>
-        {% else %}
-            <a href="/tech">[TECH]</a>
-        {% endif %}
     </nav>
 </header>
