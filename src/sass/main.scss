@@ -4,14 +4,15 @@ body {
     font-family: "Inconsolatas", "Consolas", monospace;
     color: white;
     background-color: black;
+
     margin: 0px;
     padding: 0 10% 0 10%;
     min-height: 100vh;
 
-    background-image: url("../img/beach.jpg");
-    background-repeat: repeat-y;
-    background-size: cover;
-    backdrop-filter: blur(25px) brightness(95%) contrast(95%) hue-rotate(315deg) invert(1) saturate(97%);
+    // background-image: url("../img/beach.jpg");
+    // background-repeat: repeat-y;
+    // background-size: cover;
+    // backdrop-filter: blur(25px) brightness(95%) contrast(95%) hue-rotate(315deg) invert(1) saturate(97%);
 }
 
 .main {
@@ -25,38 +26,13 @@ body {
 
 a {
     text-decoration: none;
-    color: white;
+    color: inherit;
     transition: color 0.2s ease;
     font-weight: bold;
 }
 
 a:hover {
     color: rgba(255, 255, 255, 0.5);
-}
-
-.display {
-    height: 75vh;
-    width: 75vw;
-    object-fit: cover;
-}
-
-.mix {
-    mix-blend-mode: difference;
-    animation: shadow-color 10s infinite ease;
-    padding: 1rem;
-    // backdrop-filter: invert(1);
-}
-
-@keyframes shadow-color {
-    0% {
-        filter: drop-shadow(1px 1px #f00) drop-shadow(2px 2px #f00) drop-shadow(3px 3px 1px #f00);
-    }
-    50% {
-        filter: drop-shadow(1px 1px #f0f) drop-shadow(2px 2px #f0f) drop-shadow(3px 3px 1px #f0f);
-    }
-    100% {
-        filter: drop-shadow(1px 1px #f00) drop-shadow(2px 2px #f00) drop-shadow(3px 3px 1px #f00);
-    }
 }
 
 * {

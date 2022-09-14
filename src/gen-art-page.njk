@@ -4,7 +4,7 @@ pagination:
     size: 1
     alias: piece
     addAllPagesToCollections: true
-layout: base.njk
+layout: art_page.njk
 tags: p5
 permalink: "art/{{ piece.title | slug }}/"
 eleventyComputed:
@@ -22,9 +22,9 @@ eleventyComputed:
 </div>
 <br/>
 {% if piece.embed %}
-<iframe class="display" src="{{piece.embed}}"> </iframe>
+<iframe class="art-display" src="{{piece.embed}}"> </iframe>
 {% else %}
-<img class="display" src="{{piece.preview}}" />
+<img class="art-display" src="{{piece.preview}}" />
 {% endif %}
 <br/>
 <a href="{{piece.source}}"> source code </a>
