@@ -1,16 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        {% include "_meta_tags.njk" %}
         <title>{{ title }}</title>
         <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
-        <link rel="stylesheet" href="{{ '/css/main.css' | url }}"/>
+        {% block styles %}<link rel="stylesheet" href="{{ '/css/main.css' | url }}"/>{% endblock %}
     </head>
     {% include "_nav.njk" %}
     <body>
-        <main class="main">
-            {{ content | safe }}
+        <main class="main {% block mainclasses%}{% endblock %}">
+            {% block content%}
+                {{ content | safe }}
+            {% endblock %}
         </main>
     </body>
 </html>
