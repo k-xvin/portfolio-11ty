@@ -8,7 +8,7 @@ date: 2022-09-20
 # Marker Doodles
 I've thought about getting a tattoo. But there's also fun in being able to make new drawings on your skin whenever you please.
 
-Here's a few of doodles, in no particular order. They could also be made into standalone art pieces in the future.
+Here are a few doodles, in no particular order. They could also be made into standalone art pieces in the future.
 <div picture-grid="3">
 <img src="/img/posts/marker/49F5F850-0FFE-475E-A2E8-F48373F5C080.jpg"/>
 <img src="/img/posts/marker/5E350ACF-F731-49F7-AED1-7C9E6CA6E5CD.jpg"/>
