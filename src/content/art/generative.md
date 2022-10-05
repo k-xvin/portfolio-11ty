@@ -8,7 +8,7 @@ date: 2021-03-01
 # Generative Art
 I've been making generative art for a while now. I've used p5js (javascript), Nannou (Rust), and OpenRNDR (Kotlin). Nannou is great for high-performance programs, but p5js wins out on convenience. OpenRNDR has some nice recording features built in.
 
-The art below is updated occasionally. Many of these are written on OpenProcessing, for convenience: https://openprocessing.org/user/270923?o=25&view=sketches;
+The art below is updated occasionally. Many of these have been written and displayed [on OpenProcessing.](https://openprocessing.org/user/270923?o=25&view=sketches)
 
 <br/>
 

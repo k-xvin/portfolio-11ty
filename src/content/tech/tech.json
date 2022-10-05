@@ -1,5 +1,5 @@
 {
-    "permalink": "music/{{ title | slugify }}/",
+    "permalink": "tech/{{ title | slugify }}/",
     "tags": [
         "tech"
     ]

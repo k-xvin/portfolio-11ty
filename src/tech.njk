@@ -1,6 +1,11 @@
 ---
-layout: base.njk
+layout: posts.njk
 title: tech
 ---
-(posts coming soon)
-<a href="https://github.com/k-xvin" target="_blank">github</a>
+<div class="posts">
+{% for post in collections.tech | reverse %}
+    {% include "_postcard.njk"%}
+{% endfor %}
+</div>
+{# (posts coming soon)
+<a href="https://github.com/k-xvin" target="_blank">github</a> #}
