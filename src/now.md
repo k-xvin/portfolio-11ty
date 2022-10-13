@@ -6,6 +6,10 @@ date: Last Modified
 # About 
 * Source code for the website can be [found here](https://github.com/k-xvin/portfolio-11ty).
 
+# October 2022
+* Finally figured out how to use Renoise and got back into making music.
+* School stuff and cooking.
+
 # August 2022
 * Switched from using Nuxt to 11ty for this website. Better content management and static site-ness :)
 * Making generative art.

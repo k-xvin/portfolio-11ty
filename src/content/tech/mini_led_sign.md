@@ -1,0 +1,17 @@
+---
+layout: post.njk
+title: mini LED sign 
+image: /img/posts/mini_led_sign.jpg
+blurb: Made with an ESP32 WROOM32 and 1088AS LED matrix. 
+date: 2022-10-13
+---
+# Mini LED Sign
+This was my first project in messing around with an ESP32. I've always wanted to make a scrolling LED sign ever since I saw one as an artpiece in the SFMOMA. For some reason, that artpiece really left an impression in my mind. I originally made this back in May 2022.
+
+I used PlatformIO to write and flash the code onto the ESP32-WROOM32. To get the text I want to display, the ESP32 GET requests pastebin, and we spit the raw response out onto the 1088AS matrix. The ESP32 will continue to poll the pastebin to get more text to display.
+
+I think the code I wrote has some artifacts in it from when I was trying to make it more robust, but for the most part, it works as a proof of concept and reference.
+
+Code can be [found here.](https://github.com/k-xvin/esp32-1088as-matrix)
+
+<img src="/img/posts/mini_led_sign.jpg"></img>
