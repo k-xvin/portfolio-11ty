@@ -1,7 +1,7 @@
 ---
 layout: post.njk
 title: Return
-image: https://i9.ytimg.com/vi_webp/_ZW-tVPuF_I/mqdefault.webp?sqp=CMifoZoG&rs=AOn4CLDjJxDvlQgtA-13P8EK_D1RckBJKA
+image: /img/posts/Return.png 
 blurb: Got around to finishing a track.
 date: 2022-10-07
 ---
