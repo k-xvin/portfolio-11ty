@@ -12,6 +12,7 @@
     height: 100px;
 
     background-color: rgba(59, 59, 59, 0.75);
+    background-color: transparentize(invert($color-bg), 0.8);
 
     border-radius: 16px; 
     display: grid;

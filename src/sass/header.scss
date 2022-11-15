@@ -1,3 +1,5 @@
+@import "colors.scss";
+
 .header {
     position: sticky;
     top: 0;
@@ -9,16 +11,14 @@
 .nav {
     display: flex;
     flex-direction: row;
-    // flex-wrap:  wrap;
 
     justify-content: center;
 
     gap: 0.5rem;
     padding: 0.5rem;
     margin: 1rem 0 1rem 0;
-    // background-color: black;
 }
 
 .active {
-    color: rgba(255, 255, 255, 0.5);
+    color: transparentize($color-text, 0.5);
 }

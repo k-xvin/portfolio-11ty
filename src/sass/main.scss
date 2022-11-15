@@ -1,21 +1,28 @@
 @import "header.scss";
+@import "colors.scss";
+
+html {
+    font-family: "Consolas", monospace;
+    font-size: 17px;
+    line-height: 1.5;
+    font-weight: 300;
+    letter-spacing: 0.25px;
+}
+
+// html.wf-active {
+//     font-family: "Jetbrains Mono", "Consolas", monospace;
+//     font-size: 16px;
+//     line-height: 1.6;
+//     letter-spacing: 0px;
+// }
 
 body {
-    font-family: "Jetbrains Mono", "Inconsolatas", "Consolas", monospace;
-    color: #F3F5F5;
-    background-color: #171a25;
-
-    // color: black;
-    // background-color: white;
-
+    color: $color-text;
+    background-color: $color-bg;
     margin: 0px;
+
     padding: 0 10% 0 10%;
     min-height: 100vh;
-
-    // background-image: url("../img/beach.jpg");
-    // background-repeat: repeat-y;
-    // background-size: cover;
-    // backdrop-filter: blur(25px) brightness(95%) contrast(95%) hue-rotate(315deg) invert(1) saturate(97%);
 }
 
 .main {
@@ -35,7 +42,7 @@ a {
 }
 
 a:hover {
-    color: rgba(255, 255, 255, 0.5);
+    color: transparentize($color: $color-text, $amount: 0.5);
 }
 
 * {
