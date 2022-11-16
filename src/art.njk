@@ -2,22 +2,20 @@
 layout: posts.njk
 title: art
 ---
+<div class="posts pinned">
+{% for post in collections.art | reverse %}
+    {% if post.data.pinned == true %}
+        {% if post.data.title == "Generative Art" %}
+                {% include "_postcard.njk"%}
+        {% endif %}
+    {% endif%}
+{% endfor %}
+</div>
+
 <div class="posts">
 {% for post in collections.art | reverse %}
-    {% include "_postcard.njk"%}
-    {# <a class="card" href={{post.url}}>
-        <div class="card-img">
-            <img src="{{post.data.image}}"/>
-        </div>
-        <div class="card-body">
-            <h2>
-                {{post.data.title}}
-            </h2>
-            <div class="card-date"> {{post.date | postDate}} </div> 
-            <div class="card-blurb">
-                {{post.data.blurb}}
-            </div>
-        </div>
-    </a> #}
+    {% if post.data.pinned != true %}
+        {% include "_postcard.njk"%}
+    {% endif%}
 {% endfor %}
 </div>

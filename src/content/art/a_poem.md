@@ -1,6 +1,6 @@
 ---
 layout: post.njk
-title: A Poem (from LinkedIn message auto-suggestions)
+title: A Poem (from LinkedIn)
 image: /img/posts/a_poem.png
 blurb: And you, too
 date: 2022-11-06

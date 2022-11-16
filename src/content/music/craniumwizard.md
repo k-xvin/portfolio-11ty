@@ -4,6 +4,7 @@ title: cranium wizard EP
 image: /img/posts/cranium_wizard.png
 blurb: Collection of tracks made mid-2021 to early-2022.
 date: 2022-09-01
+pinned: true
 ---
 # cranium wizard
 

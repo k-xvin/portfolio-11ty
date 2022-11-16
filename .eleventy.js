@@ -7,6 +7,10 @@ module.exports = function (eleventyConfig) {
 
     eleventyConfig.addPassthroughCopy("./src/img");
 
+    eleventyConfig.addFilter('log', value => {
+        console.log(value)
+    })
+
     // For error page while running browsersync
     eleventyConfig.setBrowserSyncConfig({
         callbacks: {

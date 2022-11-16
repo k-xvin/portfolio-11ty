@@ -1,9 +1,17 @@
-<a class="card" href={{post.url}}>
+<a class="card" href=
+    {% if post.data.title == "Generative Art" %}
+        "https://gallery.kxvin.com"
+        {% else %}
+        {{post.url}}
+    {% endif %}
+>
     <div class="card-img">
         <img src="{{post.data.image}}"/>
     </div>
     <div class="card-body">
-        <div class="card-date"> {{post.date | postDate}} </div> 
+        <div class="card-date">
+            {{post.date | postDate}}
+        </div>
         <div class="card-title">
             {{post.data.title}}
         </div>

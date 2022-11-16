@@ -2,10 +2,18 @@
 layout: posts.njk
 title: music
 ---
-<div class="posts">
+<div class="posts pinned">
 {% for post in collections.music | reverse %}
-    {% include "_postcard.njk"%}
+    {% if post.data.pinned == true %}
+        {% include "_postcard.njk"%}
+    {% endif%}
 {% endfor %}
 </div>
-{# <a href="https://soundcloud.com/zarbobo" target="_blank">soundcloud</a>
-<a href="https://www.youtube.com/channel/UCIQCQvnR4iwj72MhhLw4fqg" target="_blank">youtube</a> #}
+
+<div class="posts">
+{% for post in collections.music | reverse %}
+    {% if post.data.pinned != true %}
+        {% include "_postcard.njk"%}
+    {% endif%}
+{% endfor %}
+</div>
