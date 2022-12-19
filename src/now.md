@@ -6,6 +6,10 @@ date: Last Modified
 # About 
 * Source code for the website can be [found here](https://github.com/k-xvin/portfolio-11ty).
 
+# December 2022
+* Currently reading <i>The Design of Everyday Things</i>.
+* Hacked togther a browser extension to move around clues on a janky crossword website.
+
 # November 2022
 * Currently reading <i>Sapiens</i>.
 * Updated this website with pinned articles and a better generative art showcase [gallery](https://gallery.kxvin.com).
