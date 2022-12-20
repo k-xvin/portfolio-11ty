@@ -9,11 +9,11 @@
 
 .pinned {
     padding-bottom: 1rem;
-    border-bottom: 1px solid white;
+    // border-bottom: 1px solid white;
     position: relative;
 
     .card {
-        background-color: transparentize(invert($color-bg), 0.6);
+        // background-color: transparentize($background, 0.6);
         position: relative;
     }
     .card-body {
@@ -37,7 +37,7 @@
     height: 100px;
 
     background-color: rgba(59, 59, 59, 0.75);
-    background-color: transparentize(invert($color-bg), 0.8);
+    background-color: transparentize(invert($background), 0.8);
 
     border-radius: 16px;
     display: grid;
@@ -59,6 +59,11 @@
     }
 
 }
+    hr {
+        width: 100%;
+        max-width: 500px;
+        border-bottom: 1px solid white;
+    }
 
 .card-body {
     // height: 100px;

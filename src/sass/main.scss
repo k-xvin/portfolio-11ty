@@ -1,5 +1,10 @@
-@import "header.scss";
-@import "colors.scss";
+$background: #171a25;
+$text: #F3F5F5;
+
+:root {
+    --background: #{$background};
+    --text: #{$text};
+}
 
 html {
     font-family: "Consolas", monospace;
@@ -9,16 +14,9 @@ html {
     letter-spacing: 0.25px;
 }
 
-// html.wf-active {
-//     font-family: "Jetbrains Mono", "Consolas", monospace;
-//     font-size: 16px;
-//     line-height: 1.6;
-//     letter-spacing: 0px;
-// }
-
 body {
-    color: $color-text;
-    background-color: $color-bg;
+    color: var(--text);
+    background-color: var(--background);
     margin: 0px;
 
     padding: 0 10% 0 10%;
@@ -42,9 +40,10 @@ a {
 }
 
 a:hover {
-    color: transparentize($color: $color-text, $amount: 0.5);
+    color: transparentize($text, 0.5);
 }
 
+// scrollbar stuff
 * {
   scrollbar-width: thin;
   scrollbar-color: rgba(145, 145, 145, 0.432) transparent;
@@ -61,4 +60,28 @@ a:hover {
 *::-webkit-scrollbar-track {
     background: transparent;
     margin: 1rem 0;
+}
+
+// header stuff
+.header {
+    position: sticky;
+    top: 0;
+    display: grid;
+    place-content: center;
+    z-index: 1;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+
+    gap: 0.5rem;
+    padding: 0.5rem;
+    margin: 1rem 0 1rem 0;
+}
+
+.active {
+    color: transparentize($text, 0.5);
 }
