@@ -1,5 +1,6 @@
 const fs = require("fs");
 const { DateTime } = require("luxon");
+const format = require('date-fns/format');
 const NOT_FOUND_PATH = "public/404.html";
 
 module.exports = function (eleventyConfig) {
@@ -36,6 +37,11 @@ module.exports = function (eleventyConfig) {
     // https://www.bockensm.com/2021/03/13/javascript-dates-off-by-one/
     eleventyConfig.addFilter("postDate", (dateObj) => {
         return dateObj.toLocaleDateString( "en-US", { timeZone: "UTC" } );
+    });
+
+    //date for xml
+    eleventyConfig.addFilter('date', function (date, dateFormat) {
+        return format(date, dateFormat)
     });
 
     return {

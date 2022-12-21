@@ -1,9 +1,8 @@
 @import "main.scss";
 
 .landing {
-    justify-content: end;
     text-align: center;
-
+    justify-content: center;
 }  
 
 .social-icons {
@@ -15,21 +14,13 @@
     margin: 1.5rem 0 1.5rem 0;
 }
 
-.lander {
-    // mix-blend-mode: difference;
-    // animation: shadow-color 10s infinite ease;
-    padding: 1rem;
-}
-
 .title {
+    margin: 0rem 0 1rem 0;
     animation: move-around 2s infinite alternate ease-in-out;
 }
 
 .color-text {
     animation: shadow-color 2s infinite ease;
-
-    // filter: drop-shadow(1px 1px #0ff) drop-shadow(2px 2px #0ff) drop-shadow(3px 3px 1px #0ff);
-    // filter: drop-shadow(1px 1px #f0f) drop-shadow(2px 2px #f0f) drop-shadow(3px 3px 1px #f0f);
     color: #0ff;
 }
 
@@ -44,18 +35,6 @@
         filter: drop-shadow(1px 1px #0ff) drop-shadow(2px 2px #0ff) drop-shadow(3px 3px 1px #0ff);
     }
 }
-
-// @keyframes shadow-color {
-//     0% {
-//         filter: drop-shadow(1px 1px #f00) drop-shadow(2px 2px #f00) drop-shadow(3px 3px 1px #f00);
-//     }
-//     50% {
-//         filter: drop-shadow(1px 1px #f0f) drop-shadow(2px 2px #f0f) drop-shadow(3px 3px 1px #f0f);
-//     }
-//     100% {
-//         filter: drop-shadow(1px 1px #f00) drop-shadow(2px 2px #f00) drop-shadow(3px 3px 1px #f00);
-//     }
-// }
 
 @keyframes move-around {
     0% {

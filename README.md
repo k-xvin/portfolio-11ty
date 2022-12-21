@@ -7,3 +7,6 @@ Made from https://github.com/5t3ph/11ty-sass-skeleton
 **`npm run build`**
 
 > Production build includes minified, autoprefixed CSS
+
+Sitemap info/guide
+* https://dev.to/loige/create-a-sitemap-for-your-eleventy-website-25h/

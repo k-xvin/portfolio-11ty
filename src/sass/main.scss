@@ -1,9 +1,9 @@
-$background: #171a25;
-$text: #F3F5F5;
-
 :root {
-    --background: #{$background};
-    --text: #{$text};
+    --background: #171a25;
+    --nav-background: #{transparentize(#171a25, 0.2)};
+    --card-background: #{transparentize(invert(#171a25), 0.8)};
+    --text: #F3F5F5;
+    --text-hover: #{transparentize(#f3f5f5, 0.5)};
 }
 
 html {
@@ -12,20 +12,24 @@ html {
     line-height: 1.5;
     font-weight: 300;
     letter-spacing: 0.25px;
+    overflow-y: scroll;
+}
+
+h1,h2,h3,h4,p {
+    margin: 0.5rem 0 0.5rem 0;
 }
 
 body {
     color: var(--text);
     background-color: var(--background);
-    margin: 0px;
 
-    padding: 0 10% 0 10%;
     min-height: 100vh;
+    width: 75vw;
+    margin: 0 auto;
 }
 
-.main {
-    min-height: 60vh;
-    height: 100%;
+main {
+    min-height: 70vh;
 
     display: flex;
     flex-direction: column;
@@ -34,13 +38,17 @@ body {
 
 a {
     text-decoration: none;
-    color: inherit;
+    color: var(--text);
     transition: color 0.2s ease;
     font-weight: bold;
 }
 
+hr {
+    width: 100%;
+    border-bottom: 1px solid var(--text);
+}
 a:hover {
-    color: transparentize($text, 0.5);
+    color: var(--text-hover);
 }
 
 // scrollbar stuff
@@ -72,6 +80,7 @@ a:hover {
 }
 
 .nav {
+    background: var(--nav-background);
     display: flex;
     flex-direction: row;
 
@@ -83,5 +92,26 @@ a:hover {
 }
 
 .active {
-    color: transparentize($text, 0.5);
+    color: var(--text-hover);
 }
+
+// footer + dark mode button
+// footer {
+//     display: grid;
+//     padding: 1rem;
+//     place-items: center;
+// }
+
+// #toggle {
+//     display: none;
+// }
+
+// .moon {
+//     height: 2rem;
+//     fill: var(--dark-mode-text);
+//     transition: fill 0.2s ease;
+// }
+
+// #toggle:checked + .moon {
+//     fill: var(--dark-mode-background);
+// }
