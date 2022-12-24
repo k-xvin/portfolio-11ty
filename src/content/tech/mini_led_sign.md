@@ -1,7 +1,7 @@
 ---
 layout: post.njk
 title: mini LED sign 
-image: /img/posts/mini_led_sign.jpg
+image: ./src/img/posts/mini_led_sign.jpg
 blurb: Made with an ESP32 WROOM32 and 1088AS LED matrix. 
 date: 2022-10-13
 ---

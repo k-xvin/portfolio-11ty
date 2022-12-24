@@ -1,7 +1,7 @@
 ---
 layout: post.njk
 title: Return
-image: /img/posts/Return.png 
+image: ./src/img/posts/Return.png 
 blurb: Got around to finishing a track.
 date: 2022-10-07
 ---

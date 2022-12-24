@@ -1,7 +1,7 @@
 ---
 layout: post.njk
 title: marker doodles
-image: /img/posts/marker/6C2396B7-C707-49C7-89BD-35EAC1B175C1.jpg 
+image: ./src/img/posts/marker/6C2396B7-C707-49C7-89BD-35EAC1B175C1.jpg 
 blurb: Some random doodles with a tattoo marker.
 date: 2022-09-20
 ---

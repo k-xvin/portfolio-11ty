@@ -1,7 +1,7 @@
 ---
 layout: post.njk
 title: Wobblr
-image: https://i.ytimg.com/vi/zItW-HPTh1U/hqdefault.jpg?sqp=-oaymwE2CPYBEIoBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhcIFwoXDAP&rs=AOn4CLCDixLQdAMAgx4jf8MjUwTJ1FVIWg 
+image: ./src/img/posts/placeholder.png
 blurb: I was trying to type wobble
 date: 2022-10-30
 ---

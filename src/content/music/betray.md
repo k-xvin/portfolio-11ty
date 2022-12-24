@@ -1,7 +1,7 @@
 ---
 layout: post.njk
 title: Betray 
-image: https://i.ytimg.com/vi/NuIa8bmcOLw/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDtTQwh5WvYpYpeoymIirYzt3RYcw
+image: ./src/img/posts/betray.webp
 blurb: I thought about betrayal while writing it.
 date: 2022-01-13
 ---

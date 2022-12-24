@@ -1,7 +1,7 @@
 ---
 layout: post.njk
 title: Absence
-image: https://i.ytimg.com/vi/1I5Eo5GyS0g/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLASwgrg3eTxXf6dw0ATpgsJSTXlQg
+image: ./src/img/posts/absence.webp
 blurb: Made during a week-long experiment.
 date: 2021-10-19
 ---

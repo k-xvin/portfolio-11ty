@@ -1,7 +1,7 @@
 ---
 layout: post.njk
 title: Fall
-image: https://i.ytimg.com/vi/ua_nSHHp3YE/hqdefault.jpg?sqp=-oaymwE2CPYBEIoBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhRIFooZTAP&rs=AOn4CLCm7eUpYynB6pYoL_Lro-MTCgE9OA
+image: ./src/img/posts/placeholder.png
 blurb: A little more mellow
 date: 2022-10-30
 ---

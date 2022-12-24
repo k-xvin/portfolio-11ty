@@ -1,12 +1,12 @@
 ---
 layout: post.njk
 title: Crossword Navigation Extension
-image: https://raw.githubusercontent.com/k-xvin/FreeCrosswordPuzzles-Navigation-Extension/master/icons/128.png
+image: ./src/img/posts/nav.png
 blurb: A browser extension to add keyboard clue navigation to FreeCrosswordPuzzles.com.au
 date: 2022-12-19
 ---
 <img style="width:128px; background:white" src="https://raw.githubusercontent.com/k-xvin/FreeCrosswordPuzzles-Navigation-Extension/master/icons/128.png"></img>
-# FreeCrosswordPuzzles Navigation Extension
+# Browser Extension
 
 I recently found the website [freecrosswordpuzzles.com.au](https://freecrosswordpuzzles.com.au/). It's a pretty old website, but it's got a heck of a lot of free crosswords on it.
 

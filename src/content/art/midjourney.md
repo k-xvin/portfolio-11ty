@@ -1,7 +1,7 @@
 ---
 layout: post.njk
 title: midjourney ai art
-image: /img/posts/midjourney/g_un_flat_encyclopedia_drawing_of_the_earth_with_style_of_beksi_21d30355-3b71-48cd-a2e8-a5633c1ac2b2.png
+image: ./src/img/posts/midjourney/g_un_flat_encyclopedia_drawing_of_the_earth_with_style_of_beksi_21d30355-3b71-48cd-a2e8-a5633c1ac2b2.png
 blurb: Some light experimenting with AI art using Midjourney.
 date: 2022-09-12
 ---

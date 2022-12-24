@@ -1,7 +1,7 @@
 ---
 layout: post.njk
 title: Drive
-image: https://i.ytimg.com/vi/o1hXlyF1o0U/hqdefault.jpg?sqp=-oaymwE2CPYBEIoBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARh_IDwoJTAP&rs=AOn4CLBQA_g18cNKi3plO9hHpkS3bHALSQ
+image: ./src/img/posts/placeholder.png
 blurb: Experimental snippet 
 date: 2022-10-18
 ---

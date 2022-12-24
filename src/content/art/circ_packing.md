@@ -1,7 +1,7 @@
 ---
 layout: post.njk
 title: Experiments in Circle Packing
-image: /img/posts/circ_packing/1.jpg
+image: ./src/img/posts/circ_packing/1.jpg
 blurb: Generative art variations on circle packing
 date: 2022-11-12
 ---

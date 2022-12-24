@@ -1,7 +1,7 @@
 ---
 layout: post.njk
 title: Frank 
-image: https://cdn.discordapp.com/attachments/916989584620015619/996976756357611550/unknown.png
+image: ./src/img/posts/placeholder.png
 blurb: Short story I wrote in a creative writing class.
 date: 2020-12-15
 ---

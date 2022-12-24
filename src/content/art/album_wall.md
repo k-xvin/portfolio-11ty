@@ -1,7 +1,7 @@
 ---
 layout: post.njk
 title: album wall decor 
-image: /img/posts/album_wall/wall.jpg 
+image: ./src/img/posts/album_wall/wall.jpg 
 blurb: Cool wall decor for the new apartment.
 date: 2022-10-05
 ---

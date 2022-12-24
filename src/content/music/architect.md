@@ -1,7 +1,7 @@
 ---
 layout: post.njk
 title: Architect 
-image: https://i.ytimg.com/vi/ibJe8pAbDEo/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAJXI_xFPmd7HDyFJbcxlba7av1_w
+image: ./src/img/posts/architect.webp
 blurb: First track I ever made.
 date: 2021-08-07
 ---

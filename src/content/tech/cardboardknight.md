@@ -1,7 +1,7 @@
 ---
 layout: post.njk
 title: cardboard knight costume
-image: /img/posts/cardboard_knight/IMG_0583.jpg
+image: ./src/img/posts/cardboard_knight/IMG_0583.jpg
 blurb: Halloween costume I made in back in 2019. 
 date: 2019-10-31
 ---

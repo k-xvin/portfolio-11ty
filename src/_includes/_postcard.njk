@@ -7,7 +7,9 @@
     {% endif %}
 >
     <div class="card-img">
-        <img src="{{post.data.image}}"/>
+        {# <img src="{{post.data.image}}"/> #}
+        {% icon post.data.image, post.data.title %}
+        {# {% icon "./src/img/posts/a_poem.png", "test" %} #}
     </div>
     <div class="card-body">
         <div class="card-date">

@@ -1,7 +1,7 @@
 ---
 layout: post.njk
 title: lonely boat
-image: https://i.ytimg.com/vi/6nsxX2SDnCM/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDELRzDywUhculKro-Rn16IJZsVcw
+image: ./src/img/posts/lonelyboat.webp
 blurb: the boat is lonely.
 date: 2021-08-11
 ---
