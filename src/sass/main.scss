@@ -4,6 +4,8 @@
     --card-background: #{transparentize(invert(#171a25), 0.8)};
     --text: #F3F5F5;
     --text-hover: #{transparentize(#f3f5f5, 0.5)};
+    --blue: #0ff;
+    --pink: #f0f;
 }
 
 html {
@@ -39,7 +41,7 @@ main {
 a {
     text-decoration: none;
     color: var(--text);
-    transition: color 0.2s ease;
+    // transition: all 0.2s ease;
     font-weight: bold;
 }
 
@@ -48,7 +50,7 @@ hr {
     border-bottom: 1px solid var(--text);
 }
 a:hover {
-    color: var(--text-hover);
+    @extend .active;
 }
 
 // scrollbar stuff
@@ -76,7 +78,7 @@ a:hover {
     top: 0;
     display: grid;
     place-content: center;
-    z-index: 1;
+    z-index: 5;
 }
 
 .nav {
@@ -92,26 +94,8 @@ a:hover {
 }
 
 .active {
-    color: var(--text-hover);
+    color: var(--background);
+    background-color: var(--blue);
+    // outline: 3px solid var(--blue);
+    box-shadow: 3px 3px var(--pink);
 }
-
-// footer + dark mode button
-// footer {
-//     display: grid;
-//     padding: 1rem;
-//     place-items: center;
-// }
-
-// #toggle {
-//     display: none;
-// }
-
-// .moon {
-//     height: 2rem;
-//     fill: var(--dark-mode-text);
-//     transition: fill 0.2s ease;
-// }
-
-// #toggle:checked + .moon {
-//     fill: var(--dark-mode-background);
-// }

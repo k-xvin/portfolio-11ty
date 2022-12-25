@@ -16,6 +16,7 @@ On a whim, I whipped together a browser extension to add tab/enter key navigatio
 
 This was a nice little project I spent a few days on (coding + uploading it to Firefox/Chrome).
 
-Chrome Extension - currently pending approval  
-[Firefox Add-on](https://addons.mozilla.org/en-US/firefox/addon/fcp-clue-hotkeys/)  
+[Chrome Extension](https://chrome.google.com/webstore/detail/crossword-clue-navigation/egloaicccbjngacnkenbejcngjkddjma)  
+[Firefox Add-on](https://addons.mozilla.org/en-US/firefox/addon/fcp-clue-hotkeys/)
+  
 [Source code](https://github.com/k-xvin/FreeCrosswordPuzzles-Navigation-Extension)  
