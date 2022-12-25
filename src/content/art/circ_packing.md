@@ -7,10 +7,10 @@ date: 2022-11-12
 ---
 # Experiments in Circle Packing
 <div picture-grid="2">
-<img src="/img/posts/circ_packing/1.jpg"/>
-<img src="/img/posts/circ_packing/2.jpg"/>
-<img src="/img/posts/circ_packing/3.jpg"/>
-<img src="/img/posts/circ_packing/4.jpg"/>
+{% image "./src/img/posts/circ_packing/1.jpg", "example 1"%}
+{% image "./src/img/posts/circ_packing/2.jpg", "example 2"%}
+{% image "./src/img/posts/circ_packing/3.jpg", "example 3"%}
+{% image "./src/img/posts/circ_packing/4.jpg", "example 4"%}
 </div>
 
 ## The Process

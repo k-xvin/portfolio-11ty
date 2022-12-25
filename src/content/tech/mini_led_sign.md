@@ -14,4 +14,4 @@ I think the code I wrote has some artifacts in it from when I was trying to make
 
 Code can be [found here.](https://github.com/k-xvin/esp32-1088as-matrix)
 
-<img src="/img/posts/mini_led_sign.jpg"></img>
+{% image "./src/img/posts/mini_led_sign.jpg", "led sign" %}

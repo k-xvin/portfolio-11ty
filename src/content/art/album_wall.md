@@ -10,9 +10,9 @@ Empty walls call for art. Albums were selected between my roommates and I. One o
 
 We ordered the prints on 8" by 8" foamboard [from printmoz](https://www.printmoz.com/). The price was very reasonable (about $3-4 per album cover print), and the quality was also fantastic. The colors came out just right, with no blurriness or pixelation either.
 
-<img src="/img/posts/album_wall/wall.jpg"/>
+{% image "./src/img/posts/album_wall/wall.jpg", "album wall" %}
 
 <div picture-grid>
-<img src="/img/posts/album_wall/venn_diagram.png"/>
-<img src="/img/posts/album_wall/process.png"/>
+{% image "./src/img/posts/album_wall/venn_diagram.png", "venn diagram of music" %}
+{% image "./src/img/posts/album_wall/process.png", "building process" %}
 </div>

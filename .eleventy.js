@@ -60,7 +60,7 @@ module.exports = function (eleventyConfig) {
 // https://www.10ty.dev/docs/plugins/image/
 async function imageShortcode(src, alt, sizes) {
     let metadata = await Image(src, {
-        widths: [300, 600, null],
+        widths: [300, 600, "auto"],
         formats: ["avif", "jpeg"],
         outputDir: "public/img"
     });
