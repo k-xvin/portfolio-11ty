@@ -1,7 +1,7 @@
 ---
 layout: post.njk
-title: now
-date: git Last Modified
+title: about
+date: Last Modified
 ---
 # About 
 * I make art and other random projects.

@@ -93,6 +93,7 @@ a:hover {
     background: $nav-background;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     text-align: center;
 
     justify-content: center;
