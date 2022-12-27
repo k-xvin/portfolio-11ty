@@ -4,7 +4,10 @@ title: about
 date: Last Modified
 ---
 # About 
-* I make art and other random projects.
+* I'm Kevin. I mainly work on software and hardware personal projects, which include web development, creative coding, music, and embedded systems. 
+* I (will soon) have a B.S. in Computer Engineering with a Minor in Anthropology from the University of California, Irvine.
+* I try to keep this website up-to-date, but there's a good few projects I haven't documented on here yet.
+* Feel free to send me an email: kevinshao9 (at) gmail (dot) com
 * This site was generated with [11ty](https://www.11ty.dev/) and is hosted on Cloudflare Pages.
 * [Source code](https://github.com/k-xvin/portfolio-11ty).
 
