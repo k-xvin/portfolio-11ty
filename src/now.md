@@ -27,4 +27,4 @@ date: git Last Modified
 * Switched from using Nuxt to 11ty for this website. Better content management and static site-ness :)
 * Making generative art.
 * Looking into making physical prints of my art.
-* Final year of college.
+* Final year of college begins.

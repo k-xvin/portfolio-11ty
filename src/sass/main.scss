@@ -1,12 +1,20 @@
-:root {
-    --background: #171a25;
-    --nav-background: #{transparentize(#171a25, 0.2)};
-    --card-background: #{transparentize(invert(#171a25), 0.8)};
-    --text: #F3F5F5;
-    --text-hover: #{transparentize(#f3f5f5, 0.5)};
-    --blue: #0ff;
-    --pink: #f0f;
-}
+$background: #171a25;
+$nav-background: transparentize(#171a25, 0.2);
+$card-background: transparentize(invert(#171a25), 0.8);
+$text: #F3F5F5;
+$text-hover: transparentize(#f3f5f5, 0.5);
+$blue: #0ff;
+$pink: #f0f;
+
+// :root {
+//     --background: #171a25;
+//     --nav-background: #{transparentize(#171a25, 0.2)};
+//     --card-background: #{transparentize(invert(#171a25), 0.8)};
+//     --text: #F3F5F5;
+//     --text-hover: #{transparentize(#f3f5f5, 0.5)};
+//     --blue: #0ff;
+//     --pink: #f0f;
+// }
 
 html {
     font-family: "Consolas", monospace;
@@ -22,8 +30,8 @@ h1,h2,h3,h4,p {
 }
 
 body {
-    color: var(--text);
-    background-color: var(--background);
+    color: $text;
+    background-color: $background;
 
     min-height: 100vh;
     width: 75vw;
@@ -40,14 +48,14 @@ main {
 
 a {
     text-decoration: none;
-    color: var(--text);
+    color: $text;
     // transition: all 0.2s ease;
     font-weight: bold;
 }
 
 hr {
     width: 100%;
-    border-bottom: 1px solid var(--text);
+    border-bottom: 1px solid $text;
 }
 a:hover {
     @extend .active;
@@ -82,9 +90,10 @@ a:hover {
 }
 
 .nav {
-    background: var(--nav-background);
+    background: $nav-background;
     display: flex;
     flex-direction: row;
+    text-align: center;
 
     justify-content: center;
 
@@ -94,8 +103,7 @@ a:hover {
 }
 
 .active {
-    color: var(--background);
-    background-color: var(--blue);
-    // outline: 3px solid var(--blue);
-    box-shadow: 3px 3px var(--pink);
+    color: $background;
+    background-color: $blue;
+    box-shadow: 3px 3px $pink;
 }

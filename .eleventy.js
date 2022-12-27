@@ -7,6 +7,7 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addWatchTarget("./src/sass/");
 
     eleventyConfig.addPassthroughCopy("./src/img/favicon.ico");
+    // eleventyConfig.addPassthroughCopy("./src/img/svg/");
 
     eleventyConfig.addFilter('log', value => {
         console.log(value)
