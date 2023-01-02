@@ -4,13 +4,14 @@
     padding: 1rem;
     // margin: 0 auto 10vh auto;
     // margin-bottom: 10vh;
+    background-color: $nav-background;
 
     min-width: 300px;
     width: 60%;
     max-width: 650px;
 
-    border-left: 2px solid $blue;
-    border-right: 2px solid $pink;
+    border-top: 2px solid $blue;
+    border-bottom: 2px solid $pink;
     
     display: flex;
     flex-direction: column;

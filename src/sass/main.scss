@@ -1,6 +1,8 @@
-$background: #171a25;
-$nav-background: transparentize(#171a25, 0.2);
-$card-background: transparentize(invert(#171a25), 0.8);
+$background: #302D3C;
+$background-2: #171a25;
+$nav-background: transparentize($background-2, 0.2);
+// $card-background: transparentize(invert($background), 0.8);
+$card-background: $nav-background;
 $text: #F3F5F5;
 $text-hover: transparentize(#f3f5f5, 0.5);
 $blue: #0ff;
@@ -95,6 +97,7 @@ a:hover {
     flex-direction: row;
     flex-wrap: wrap;
     text-align: center;
+    font-size: 14px;
 
     justify-content: center;
 
