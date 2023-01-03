@@ -16,7 +16,7 @@
     display: flex;
     flex-direction: column;
 
-    ul {
+    ul, ol {
         margin-left: 1rem;
         padding-left: 1rem;
         li {
@@ -44,12 +44,12 @@
     code {
         padding: 2px;
         border-radius: 4px;
-        background-color: $card-background;
+        background-color: $background;
     }
 
     a {
         text-decoration: underline;
-        font-weight: normal;
+        font-weight: bold;
     }
 
 }
