@@ -31,7 +31,7 @@ It's hard to list every little thing I did, but here are some that come to mind:
     * For authentication, we used [Firebase](https://firebase.google.com/), mainly because I had experience with it.
 * Developed the production backend API with Rust and SQL. For the most part, our CTO lead the charge in backend design decisions. 
     * I made sure our API routes were throughly vetted with unit tests.
-    * We still with Firebase for authentication and user information storage, so I was still responsible for that side.
+    * We stuck with Firebase for authentication and user information storage, so I was still responsible for that side.
 * Designed and implemented the [foodpool.app](https://www.blackstonelaunchpad.org/) website. 
     * There were **many** iterations here, but I'm quite proud of how it eventually turned out.
     * We went with [React](https://reactjs.org/) for the website, mainly since we were all familiar with it (granted, I ended up being the only one who was implementing it, haha).
