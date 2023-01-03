@@ -16,6 +16,16 @@
     display: flex;
     flex-direction: column;
 
+    word-wrap: break-word;
+
+    font-size: 15px;
+
+    blockquote {
+        padding-left: 1rem;
+        border-left: 2px solid $text;
+        margin-left: 1rem;
+    }
+
     ul, ol {
         margin-left: 1rem;
         padding-left: 1rem;
