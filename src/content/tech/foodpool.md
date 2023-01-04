@@ -2,7 +2,7 @@
 layout: post.njk
 title: "Foodpool: A Retrospective"
 image: ./src/img/posts/foodpool/foodpool.jpeg
-blurb: Some reflections on a startup I cofounded.
+blurb: Some reflections on another startup I cofounded.
 date: 2022-07-01
 ---
 # What the heck is a Foodpool?

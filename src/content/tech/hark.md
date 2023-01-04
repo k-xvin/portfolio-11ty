@@ -1,0 +1,54 @@
+---
+layout: post.njk
+title: "HarkTV: A Retrospective"
+image: ./src/img/posts/hark/hark.jpeg
+blurb: A really long hackathon project turned startup. 
+date: 2021-08-01
+---
+# This was a long hackathon
+This project was part of the [Theta Q1 2021 Hackathon](https://theta-hackathon-v2.devpost.com/) hosted by the [Theta Network](https://www.thetatoken.org/), and the hackathon lasted about 4 months. We won 1st place at this hackathon.
+
+In summary,
+* We built a livestreaming platform that used the Theta Network's hybrid distributed peer-to-peer + content delivery network model. 
+* Our platform was focused around donating to nonprofits and organizations.
+* We pitched it at a bunch of local entrepreneurship competitions at our universities.
+
+The fruits of our labor can be seen in the video below.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/RzjQTzG18Ik" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+We also have a detailed [writeup on Devpost](https://devpost.com/software/harktv-theta-for-social-good), where the hackathon was hosted.
+
+# Why did we do it?
+Jeremy and I were looking for a project to challenge ourselves on, and "the blockchain" happened to be picking up a lot of traction during this time. We didn't know a single thing about it, so we just dove right in.
+
+As we came up with an idea and started working on it, it slowly grew into the idea of an actual platform and business. We gathered some of our friends to join us on this endeavour, and we tried to make something out of it.
+
+Ultimately, the server costs behind running a streaming platform are very expensive, while the income avenues are few and far between. And with no userbase or traction, we decided to end the project and company.
+
+# What did we achieve?
+Despite not having commercial success, we got quite far with what we built.
+* A fully functional streaming platform 
+    * Profiles, channels, streams, payments--all things considered, it worked!
+* I managed to integrate Theta's hybrid streaming model.
+    * Integrating Theta's library was quite difficult, mainly due to a lack of documentation. I had to do **a lot of digging around** in the source code to get it to work.
+* Smart contracts that minted our own token and set up a working distribution/governance system
+    * Jeremy was the smart contract man
+* RTMP-HLS streaming servers built on top of [nginx](https://nginx.org/en/) and [Docker](https://www.docker.com/)
+* Our own chat servers, built on [Socket.io](https://socket.io/) and deployed on [AWS Fargate](https://aws.amazon.com/fargate/)
+    * It would not have been possible without [this tutorial](https://medium.com/containers-on-aws/building-a-socket-io-chat-app-and-deploying-it-using-aws-fargate-86fd7cbce13f)
+* An API built on [Firebase Cloud Functions](https://firebase.google.com/docs/functions/) and [Express.js](https://expressjs.com/)
+
+We even got some awards!
+* 1st Place Winner at the [Theta Q1 2021 Hackathon](https://theta-hackathon-v2.devpost.com/) ($50,000 prize)
+* Best Pitch at [UW Transcend](https://www.transcenduw.com/) ($3000 prize)
+* Semifinalist at [CS Nest 2021 Pitch Competition](https://www.csnest.com/)
+* Semifinalist at [UCI New Ventures Competition](https://merage.uci.edu/research-faculty/centers/innovation-entrepreneurship/new-venture-competiton.html)
+
+# Closing thoughts
+* This was very technically challenging for me, and I learned a lot.
+    * Notably: Firebase, Docker, API development, websockets
+* Our $50,000 prize was payed out in [THETA tokens](https://coinmarketcap.com/currencies/theta-network/) back in April/May 2021, and the token price has since decayed to under 1/10 of what it used to be as of Jan 2023.
+* Blockchain still seems to be a solution looking for a problem.
+* You can find much of codebase for public viewing [here](https://github.com/hark-streaming).
+* I wrote this post on 01/04/2023, but I dated it earlier to better fit the chronological order of projects.
