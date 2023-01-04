@@ -11,11 +11,15 @@ date: Last Modified
 * This site was generated with [11ty](https://www.11ty.dev/) and is hosted on Cloudflare Pages. [Source code](https://github.com/k-xvin/portfolio-11ty).
 
 ---
-# December 2022
+# January 2023
+* Adding in my [tech] projects I made in the past but didn't document on this website.
+    * These will be back-dated to better represent the chronological order of these projects.
 
+# December 2022
 * Currently reading <i>The Design of Everyday Things</i>.
 * Hacked togther a browser extension to move around clues on a janky crossword website.
 * Simplified and cleaned up the website.
+* Now a member of the [xxvvii webring](https://webring.xxiivv.com/#random) !
 
 # November 2022
 * Currently reading <i>Sapiens</i>.
