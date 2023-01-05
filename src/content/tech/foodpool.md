@@ -5,6 +5,8 @@ image: ./src/img/posts/foodpool/foodpool.jpeg
 blurb: Some reflections on another startup I cofounded.
 date: 2022-07-01
 ---
+(Written on 01/02/2023, but dated earlier to fit the chronological order of projects)     
+
 # What the heck is a Foodpool?
 <div picture-grid="2">
 {% image "./src/img/posts/foodpool/foodpool.jpeg", "foodpool logo" %}
@@ -53,4 +55,3 @@ Generally, I functioned as a jack-of-all-trades. I learned a lot through both th
     * such as the Google Spreadsheet/Script/Forms prototype.
 * Fun fact: before we called it `Foodpool`, we called it `Onthego`.
 * Feel free to shoot me an email or message if you want to talk about anything here!
-* I wrote this post on 01/02/2023, but I dated it earlier to better fit the chronological order of projects.

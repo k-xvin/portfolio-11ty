@@ -5,6 +5,8 @@ image: ./src/img/posts/hark/hark.jpeg
 blurb: A really long hackathon project turned startup. 
 date: 2021-08-01
 ---
+(Written on 01/04/2023, but dated earlier to fit the chronological order of projects)     
+
 # This was a long hackathon
 This project was part of the [Theta Q1 2021 Hackathon](https://theta-hackathon-v2.devpost.com/) hosted by the [Theta Network](https://www.thetatoken.org/), and the hackathon lasted about 4 months. We won 1st place at this hackathon.
 
@@ -51,4 +53,3 @@ We even got some awards!
 * Our $50,000 prize was payed out in [THETA tokens](https://coinmarketcap.com/currencies/theta-network/) back in April/May 2021, and the token price has since decayed to under 1/10 of what it used to be as of Jan 2023.
 * Blockchain still seems to be a solution looking for a problem.
 * You can find much of codebase for public viewing [here](https://github.com/hark-streaming).
-* I wrote this post on 01/04/2023, but I dated it earlier to better fit the chronological order of projects.

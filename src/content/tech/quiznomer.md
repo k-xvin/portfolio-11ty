@@ -5,6 +5,8 @@ image: ./src/img/posts/quiznomer/quiznomer.png
 blurb: The first website a friend and I ever made, filled with bizarre and nonsense quizzes.
 date: 2020-08-01
 ---
+(Written on 01/03/2023, but dated earlier to fit the chronological order of projects)     
+
 # The Origin
 {% image "./src/img/posts/quiznomer/quiznomer.png", "quiznomer website" %}
 In the words of my friend Jeremy,
@@ -38,6 +40,5 @@ While the original Quiznomer is gone, the main page was [archived at archive.org
 * Despite the Wordpress jank, Quiznomer was surprisingly robust and had a lot of features. 
     * If we were to build it again with the choice of any framework/software/etc, it would still take a non-trivial amount of time just due to the amount of features we had.
 * I repurchased the [quiznomer.com](https://quiznomer.com/) domain, and am currently converting it to an archive for the quizzes we were able to partially recover from cache plugin data.
-* I wrote this post on 01/03/2023, but dated it earlier to better fit the chronological order of projects.
 
 {% image "./src/img/posts/quiznomer/sad_walnut.jpg", "sad walnut" %}
