@@ -3,8 +3,20 @@ layout: posts.njk
 title: tech
 date: git Last Modified
 ---
+<div class="posts pinned">
+{% for post in collections.tech | reverse %}
+    {% if post.data.pinned == true %}
+        {% include "_postcard.njk"%}
+    {% endif%}
+{% endfor %}
+</div>
+
+<hr></hr>
+
 <div class="posts">
 {% for post in collections.tech | reverse %}
-    {% include "_postcard.njk"%}
+    {% if post.data.pinned != true %}
+        {% include "_postcard.njk"%}
+    {% endif%}
 {% endfor %}
 </div>

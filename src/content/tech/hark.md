@@ -4,6 +4,7 @@ title: "HarkTV: A Retrospective"
 image: ./src/img/posts/hark/hark.jpeg
 blurb: A really long hackathon project turned startup. 
 date: 2021-08-01
+pinned: true
 ---
 (Written on 01/04/2023, but dated earlier to fit the chronological order of projects)     
 

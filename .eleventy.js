@@ -40,7 +40,7 @@ module.exports = function (eleventyConfig) {
 // https://www.10ty.dev/docs/plugins/image/
 async function imageShortcode(src, alt, sizes) {
     let metadata = await Image(src, {
-        widths: [300, 600, "auto"],
+        widths: [600],
         formats: ["avif", "jpeg"],
         outputDir: "public/img"
     });
@@ -51,6 +51,9 @@ async function imageShortcode(src, alt, sizes) {
         sizes: "100vw",
         loading: "lazy",
         decoding: "async",
+        sharpJpegOptions: {
+            mozjpeg: true
+        }
     };
 
     // You bet we throw an error on missing alt in `imageAttributes` (alt="" works okay)
@@ -60,8 +63,8 @@ async function imageShortcode(src, alt, sizes) {
 // synchronous shortcode for generating post icons
 function imageIconShortcode(src, alt){
     let options = {
-        widths: [200],
-        formats: ["webp", "jpeg"],
+        widths: [150],
+        formats: ["avif", "jpeg"],
         outputDir: "public/img"
     };
     
@@ -73,6 +76,9 @@ function imageIconShortcode(src, alt){
         sizes: "100px",
         loading: "lazy",
         decoding: "async",
+        sharpJpegOptions: {
+            mozjpeg: true
+        }
     };
 
     let metadata = Image.statsSync(src, options);

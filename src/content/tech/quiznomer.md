@@ -1,9 +1,10 @@
 ---
 layout: post.njk
-title: "Quiznomer: Where it all begins"
+title: "Quiznomer: Where it All Begins"
 image: ./src/img/posts/quiznomer/quiznomer.png
 blurb: The first website a friend and I ever made, filled with bizarre and nonsense quizzes.
 date: 2020-08-01
+pinned: true
 ---
 (Written on 01/03/2023, but dated earlier to fit the chronological order of projects)     
 

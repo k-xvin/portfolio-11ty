@@ -4,6 +4,7 @@ title: "Foodpool: A Retrospective"
 image: ./src/img/posts/foodpool/foodpool.jpeg
 blurb: Some reflections on another startup I cofounded.
 date: 2022-07-01
+pinned: true
 ---
 (Written on 01/02/2023, but dated earlier to fit the chronological order of projects)     
 
