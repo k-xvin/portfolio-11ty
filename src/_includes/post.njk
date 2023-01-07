@@ -6,8 +6,19 @@
 
 {% block content %}
 <div class="post">
+
+    {% if "/art" in page.url  %}
+        <a href="/art/" class="active">[ART]</a>
+        <a class="postnav" href="/art"><- back to posts</a>
+    {% elif "/music" in page.url  %}
+        <a class="postnav" href="/music"><- back to posts</a>
+    {% elif "/tech" in page.url  %}
+        <a class="postnav" href="/tech"><- back to posts</a>
+    {% endif %}
+
     <div>{{ page.date | postDate}}</div>
     {{ content | safe }}
 </div>
+<a class="postnav" href="#top">back to top</a>
 {% endblock %}
 

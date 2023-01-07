@@ -54,3 +54,4 @@ We even got some awards!
 * Our $50,000 prize was payed out in [THETA tokens](https://coinmarketcap.com/currencies/theta-network/) back in April/May 2021, and the token price has since decayed to under 1/10 of what it used to be as of Jan 2023.
 * Blockchain still seems to be a solution looking for a problem.
 * You can find much of codebase for public viewing [here](https://github.com/hark-streaming).
+* This was the third and final hackathon of the triple hackathon streak Jeremy and I went on: [Node Visualizer](/tech/node-visualizer/) -> [Moonjelly](/tech/moonjelly-chrome-extension/) -> [Hark](/tech/harktv-a-retrospective).

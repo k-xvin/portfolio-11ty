@@ -21,7 +21,7 @@ I've made the source code [available here](https://github.com/k-xvin/RECT), alon
 
 # What's in this thing
 * Randomly generated rooms of enemies
-    * However, there is no persistant layout of rooms for each floor/level. You walk into a new room, and the old room is gone.
+    * However, there is no persistent layout of rooms for each floor/level. You walk into a new room, and the old room is gone.
 * Several types of enemies with different attack patterns and behaviors
 * 2 unique bosses
 * 15 unique items that can synergize with each other
