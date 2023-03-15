@@ -11,6 +11,9 @@ date: Last Modified
 * This site was generated with [11ty](https://www.11ty.dev/) and is hosted on Cloudflare Pages. [Source code](https://github.com/k-xvin/portfolio-11ty).
 
 ---
+# March 2023
+* Some small styling changes on the website, such as two column lists for wider displays.
+
 # January 2023
 * Adding in my [tech] projects I made in the past but didn't document on this website.
     * These will be back-dated to better represent the chronological order of these projects.
