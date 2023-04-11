@@ -20,8 +20,20 @@ I need a way to *remotely* turn on my desktop whenever I want to connect to it.
 on/off the computer. 
 
 ## The Solution
-I got my inspiration from [this video](https://www.youtube.com/watch?v=msQVvrFOUlw), which used an ESP connected to Adafruit IO 
+I got my inspiration from [this video](https://www.youtube.com/watch?v=msQVvrFOUlw), which used an ESP connected to Adafruit IO (using the MQTT protocol) 
 and wired to a relay in order remotely toggle the PC power pins. I more or less followed this concept.
+
+### Small Aside: What is MQTT and how does it work?
+In short, MQTT is a lightweight communication protocol for sending data between machines, designed for use cases that have limited network bandwidth or hardware resources.
+
+Typically, MQTT uses TCP as its transport protocol. Think of MQTT as an organized group of drivers, and TCP as the cars the drivers use to do what they need to do.
+
+In simple terms, MQTT allows for this:
+1. I send data sent to external server (called the MQTT broker)
+2. External server sends that data to the connected clients (the subscribed MQTT clients)
+3. Client receives data
+4. The client and I did not have to be on the same network to communicate! 
+    * As long as I can contact the external server (the MQTT broker), clients will be able to receive the data I want to send to them.
 
 ## The Build
 
@@ -60,7 +72,9 @@ A few weeks later, I caved and went ahead and put together an enclosure for it.
 
 {% image "./src/img/posts/remote_power_switch/done.jpg", "done" %}
 
-All in all, I'm quite proud of how it turned out. 
-It's been a long while since I've fully finished a project like this :)
+## In Conclusion
+* I'm quite proud of how it turned out. 
+* It's a fully finished project :)
+* I learned about and got to use MQTT.
 
 
