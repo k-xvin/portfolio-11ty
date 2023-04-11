@@ -29,11 +29,16 @@ In short, MQTT is a lightweight communication protocol for sending data between 
 Typically, MQTT uses TCP as its transport protocol. Think of MQTT as an organized group of drivers, and TCP as the cars the drivers use to do what they need to do.
 
 In simple terms, MQTT allows for this:
-1. I send data sent to external server (called the MQTT broker)
+1. I send data sent to an external server (called the MQTT broker)
 2. External server sends that data to the connected clients (the subscribed MQTT clients)
 3. Client receives data
-4. The client and I did not have to be on the same network to communicate! 
-    * As long as I can contact the external server (the MQTT broker), clients will be able to receive the data I want to send to them.
+4. The client and I did not have to be on the same network to communicate!
+
+With slightly more jargon:
+1. I publish data to the MQTT broker on a certain feed
+    * The "feed" is nothing more than a name that differentiates groups of clients
+2. MQTT broker sends data to clients that are subscribed to that feed
+3. Clients receive data from the broker
 
 ## The Build
 
