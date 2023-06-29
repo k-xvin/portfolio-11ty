@@ -6,9 +6,11 @@
         <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
         {% block styles %}<link rel="stylesheet" href="{{ '/css/main.css' | url }}"/>{% endblock %}
     </head>
-    {% include "_nav.njk" %}
     <body>
         <main class="{% block mainclasses%}{% endblock %}">
+            {# nav bar is inside main because body height is a fixed value so bg image scales properly #}
+            {# this way, nav bar can be position: sticky for the height of main (= to height of page) #}
+        {% include "_nav.njk" %}
             {% block content%}
                 {{ content | safe }}
             {% endblock %}

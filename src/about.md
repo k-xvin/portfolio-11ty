@@ -13,6 +13,7 @@ date: Last Modified
 ---
 # June 2023
 * I graduated! It's been a long four years.
+* Made a pixel art landscape for the website background.
 
 # March 2023
 * Some small styling changes on the website, such as two column lists for wider displays.

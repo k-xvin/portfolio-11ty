@@ -3,11 +3,19 @@
 .landing {
     text-align: center;
     justify-content: center;
-}  
 
-.title {
-    margin: 0rem 0 1rem 0;
-    animation: move-around 2s infinite alternate ease-in-out;
+    .title {
+        background-color: $background-2;   
+        margin: 5vmin 0 1rem 0;
+        animation: move-around 2s infinite alternate ease-in-out;
+    }
+
+    // .desc {
+    //     background-color: $background-2;   
+    // }
+    h1, p{ 
+        background-color: $background-2;
+    }
 }
 
 .color-text {

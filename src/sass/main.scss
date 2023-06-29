@@ -1,6 +1,6 @@
-$background: #302D3C;
+$background: #0e0e12;
 $background-2: #171a25;
-$nav-background: transparentize($background-2, 0.2);
+$nav-background: transparentize($background-2, 0.1);
 // $card-background: transparentize(invert($background), 0.8);
 $card-background: $nav-background;
 $text: #f0f0f0;
@@ -26,6 +26,7 @@ html {
     font-weight: 300;
     letter-spacing: 0.25px;
     overflow-y: scroll;
+
 }
 
 h1,h2,h3,h4,p {
@@ -34,15 +35,22 @@ h1,h2,h3,h4,p {
 
 body {
     color: $text;
-    background-color: $background;
 
-    min-height: 100vh;
+    background-color: $background;
+    background-image: url(../img/nightsky2.png);
+    background-repeat: no-repeat;
+    background-size: cover ;
+    // background-position: center center;
+    
+    // min-height: 100vh;
+    // max-height: 100vh;
+    height: 100vh;
     width: 75vw;
     margin: 0 auto;
 }
 
 main {
-    min-height: 70vh;
+    // min-height: 70vh;
 
     display: flex;
     flex-direction: column;
@@ -101,8 +109,9 @@ a:hover {
     justify-content: center;
 
     gap: 0.5rem;
-    padding: 0.5rem;
+    padding: 0.5rem 0;
     margin: 1rem 0 1rem 0;
+    min-width: 301px;
 }
 
 .active {
