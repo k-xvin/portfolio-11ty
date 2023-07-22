@@ -4,7 +4,7 @@ title: about
 date: Last Modified
 ---
 # About 
-* I'm Kevin. I mainly work on software and hardware personal projects, which include web development, creative coding, music, and embedded systems. 
+* I'm Kevin. I enjoy working on a variety of technical and artistic projects, which include web development, creative coding, embedded systems, music, and visual art. 
 * I have a B.S. in Computer Engineering with a Minor in Anthropology from the University of California, Irvine.
 * I try to keep this website up-to-date, but there's a good few projects I haven't documented on here yet.
 * Feel free to send me an email: [xu (at) kxvin (dot) com](mailto:xu@kxvin.com) 
