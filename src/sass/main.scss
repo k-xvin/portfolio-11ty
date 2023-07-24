@@ -9,16 +9,6 @@ $text-hover: transparentize(#f0f0f0, 0.5);
 $blue: #0ff;
 $pink: #f0f;
 
-// :root {
-//     --background: #171a25;
-//     --nav-background: #{transparentize(#171a25, 0.2)};
-//     --card-background: #{transparentize(invert(#171a25), 0.8)};
-//     --text: #F3F5F5;
-//     --text-hover: #{transparentize(#f3f5f5, 0.5)};
-//     --blue: #0ff;
-//     --pink: #f0f;
-// }
-
 html {
     scroll-behavior: smooth;
     font-family: "Consolas", monospace;
@@ -34,25 +24,26 @@ h1,h2,h3,h4,p {
     margin: 0.5rem 0 0.5rem 0;
 }
 
-body {
-    color: $text;
-
-    background-color: $background;
+.background {
     background-image: url(../img/nightsky2.png);
     background-repeat: no-repeat;
     background-size: cover ;
-    // background-position: center center;
-    
-    // min-height: 100vh;
-    // max-height: 100vh;
     height: 100vh;
-    width: 75vw;
+    z-index: -1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+body {
+    background-color: $background;
+    color: $text;
+    min-height: 100vh;
     margin: 0 auto;
 }
 
 main {
-    // min-height: 70vh;
-
     display: flex;
     flex-direction: column;
     align-items: center;
