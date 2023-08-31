@@ -11,6 +11,9 @@ date: Last Modified
 * This site was generated with [11ty](https://www.11ty.dev/) and is hosted on Cloudflare Pages. [Source code](https://github.com/k-xvin/portfolio-11ty).
 
 ---
+# August 2023
+* Started working full time!
+
 # June 2023
 * I graduated! It's been a long four years.
 * Made a pixel art landscape for the website background.
