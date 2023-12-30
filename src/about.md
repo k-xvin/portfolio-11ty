@@ -11,6 +11,10 @@ date: Last Modified
 * This site was generated with [11ty](https://www.11ty.dev/) and is hosted on Cloudflare Pages. [Source code](https://github.com/k-xvin/portfolio-11ty).
 
 ---
+# December 2023
+* I've been enjoying work. 
+* I have a couple of projects brewing in my mind. We'll see if I'll get to them...
+
 # August 2023
 * Started working full time!
 
