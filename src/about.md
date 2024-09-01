@@ -11,6 +11,10 @@ date: Last Modified
 * This site was generated with [11ty](https://www.11ty.dev/) and is hosted on Cloudflare Pages. [Source code](https://github.com/k-xvin/portfolio-11ty).
 
 ---
+# September 2024
+* Reorganized my personal note system (in Notion) to better keep track of my ideas and projects.
+* Trying to figure out a way to sync information between Notion and this website to make updating this website easier.
+
 # April 2024
 * Playing around with window managers and desktop setups.
 
